@@ -1,4 +1,16 @@
 <%- include("./parts/head") %>
-    <a href="/tv/<%- ip %>/post?command=WakeUp">Power On</a>
-    <a href="/tv/<%- ip %>/post?command=PowerOff">Power Off</a>
+<a class="btn" href="/">Back</a>
+<div class="btn-container">
+    <a class="btn btn-green" href="/tv/<%- ip %>/post?command=WakeUp">Power On</a>
+    <a class="btn control" href="/tv/<%- ip %>/post?command=Up">Up</a>
+    <a class="btn btn-red" href="/tv/<%- ip %>/post?command=PowerOff">Power Off</a>
+</div>
+<div class="btn-container">
+    <a class="btn control" href="/tv/<%- ip %>/post?command=Left">Left</a>
+    <a class="btn control" href="/tv/<%- ip %>/post?command=Confirm">Ok</a>
+    <a class="btn control" href="/tv/<%- ip %>/post?command=Right">Right</a>
+</div>
+<div class="btn-container">
+    <a class="btn control" href="/tv/<%- ip %>/post?command=Down">Down</a>
+</div>
 <%- include("./parts/footer") %>
