@@ -6,7 +6,7 @@ body {
 }
 
 .btn {
-    background-color: #3196E8;
+    background-color: #660AC7;
     color: white;
     border: none;
     border-radius: 0.375rem;
@@ -26,12 +26,15 @@ body {
 .btn-green {
     background-color: #47B34B;
 }
+.btn-blue {
+    background-color: #3196E8;
+}
 .btn-container {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     flex-direction: row;
 }
-.control {
+.control-btn {
     min-width: 50px;
 }
