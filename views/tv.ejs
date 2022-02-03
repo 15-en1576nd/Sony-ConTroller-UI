@@ -1,16 +1,18 @@
 <%- include("./parts/head") %>
 <a class="btn" href="/">Back</a>
 <div class="btn-container">
-    <a class="btn btn-green" href="/tv/<%- ip %>/post?command=WakeUp">Power On</a>
-    <a class="btn control" href="/tv/<%- ip %>/post?command=Up">Up</a>
-    <a class="btn btn-red" href="/tv/<%- ip %>/post?command=PowerOff">Power Off</a>
+    <a class="btn control-btn btn-green" href="/tv/<%- ip %>/post?command=WakeUp"><i class="fas fa-power-off"></i></a>
+    <a class="btn control-btn btn-blue" href="/tv/<%- ip %>/post?command=Up"><i class="fas fa-long-arrow-up"></i></a>
+    <a class="btn control-btn btn-red" href="/tv/<%- ip %>/post?command=PowerOff"><i class="fas fa-power-off"></i></a>
 </div>
 <div class="btn-container">
-    <a class="btn control" href="/tv/<%- ip %>/post?command=Left">Left</a>
-    <a class="btn control" href="/tv/<%- ip %>/post?command=Confirm">Ok</a>
-    <a class="btn control" href="/tv/<%- ip %>/post?command=Right">Right</a>
+    <a class="btn control-btn btn-blue" href="/tv/<%- ip %>/post?command=Left"><i class="fas fa-long-arrow-left"></i></a>
+    <a class="btn control-btn btn-blue" href="/tv/<%- ip %>/post?command=Confirm"><i class="fas fa-record-vinyl"></i></a>
+    <a class="btn control-btn btn-blue" href="/tv/<%- ip %>/post?command=Right"><i class="fas fa-long-arrow-right"></i></a>
 </div>
 <div class="btn-container">
-    <a class="btn control" href="/tv/<%- ip %>/post?command=Down">Down</a>
+    <a class="btn control-btn" href="/tv/<%- ip %>/post?command=Exit"><i class="fas fa-backward"></i></a>
+    <a class="btn control-btn btn-blue" href="/tv/<%- ip %>/post?command=Down"><i class="fas fa-long-arrow-down"></i></a>
+    <a class="btn control-btn" href="/tv/<%- ip %>/post?command=Home"><i class="fas fa-home"></i></a>
 </div>
 <%- include("./parts/footer") %>
